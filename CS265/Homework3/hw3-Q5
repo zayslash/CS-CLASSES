@@ -1,0 +1,20 @@
+#!/bin/bash
+
+while [[ $choice -ne 5 ]]; do
+
+read -p "Please Enter Operation type (q|Q) to exit: " int1 opp int2
+result=0
+
+if [[ (int1 -eq "q" || int1 -eq "Q") && opp -eq "" && int2 -eq "" ]]; then
+  exit 0;
+fi
+
+case $opp in
+  +) let result=$int1+$int2;;
+  -) let result=$int1-$int2;;
+  /) let result=$int1/$int2;;
+  x|*) let result=$int1*$int2;;
+  # *) echo "Invalid Choice";;
+esac
+echo "answer: "$result
+done

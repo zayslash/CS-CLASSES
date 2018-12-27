@@ -1,0 +1,79 @@
+
+//Name: Zanif Sandy 
+//Version: V1
+//Date: 09/02/18
+
+
+1.Translate:  [(A v B) ^ (A ^ B)' —> (C v C')] ^ [(A ^ B) —> C] ^ [(A v B)' —> C']
+
+you will study or you will do work and it is not true that you will study and you will do work which implies you will pass or you would not pass and you will study and you will do work then you will pass and it is not true that you will study or you will do work then you will not pass
+
+
+2.  Rewrite each statement into a propositional wff. Indicate what each statement letter represent.
+
+a) Pine trees are tall and prickly.
+
+T = Pine trees are tall
+P = Pine trees are prickly 
+
+T ^ P
+
+
+b) Mary will come to the party if and only if John goes to the party.
+
+M = Mary will come to the Party 
+J  = John come to the Party 
+
+J —> M
+
+
+3. Write the truth table for each of the following propositional wff.
+
+a) A —> B <—> A'  ∨ B
+|     A    |    B   |    A'    |     A'  v B      |        A—> B         |           A —> B <—> A' v B             |
+———————————————————————————————————————————————————————————————————————————————————————————————————————————————————-
+|     T    |    T   |    F     |        T         |          T           |                     T                   |
+|     T    |    F   |    F     |        F         |          F           |                     T                   |
+|     F    |    T   |    T     |        T         |          T           |                     T                   |
+|     F    |    F   |    T     |        T         |          T           |                     T                   |
+
+
+
+b) (A v B)' <—> A' ^ B' 
+|    A   |   B   |  (A  v  B)     |   (A  v  B)'    |  A' |  B'  |   A'   ^  B'   |      (A v B)' <—> A' ^ B’        |
+—————————————————————————————————————————————————————————————————————————————————————————————————————————————————————-
+|    T   |   T   |        T       |        F        |  F  |  F   |          F     |               T                  |
+|    T   |   F   |        T       |        F        |  F  |  T   |          F     |               T                  |
+|    F   |   T   |        T       |        F        |  T  |  F   |          F     |               T                  |
+|    F   |   F   |        F       |        T        |  T  |  T   |          T     |               T                  |
+
+
+
+extra credit
+
+|  A  |  B  |  B’  |  A v B    |    B’ —> A     |     A v B —> (B’ —> A)           |
+————————————————————————————————————————————————————————————————————————————————————
+|  T  |  T  |  F   |     T     |        T       |            T                     |
+|  T  |  F  |  T   |     T     |        T       |            T                     |
+|  F  |  T  |  F   |     T     |        T       |            T                     |
+|  F  |  F  |  T   |     F     |        F       |            T                     |
+
+Tautology
+
+
+|  A  |  B  |  P  |  Q   | 
+——————————————————————————
+|  T  |  T  |  T  |   T  |
+|  T  |  F  |  T  |   T  |
+|  F  |  T  |  T  |   T  |
+|  F  |  F  |  F  |   F  |
+
+
+Derivation Rules
+
+1.A v B - by hyp
+2.B v A - by comm
+3.B’ —> A - by implication 
+
+
+

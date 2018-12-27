@@ -1,0 +1,90 @@
+1.
+
+a)
+
+(Ax) [ P(x) -> Q(x) ]
+all numbers, if x/2 is odd then 4 divides x.
+
+
+Truth set {2}
+False set {4,6,8,10,12,14,16,20}
+False
+
+
+
+
+b)
+
+(Ax) (Ey) [ G(x,y) v G(y,x) ]
+all instances of x, there exists and instance of y such that “x” is greater than “y” or
+that “y” is greater than “x”.
+
+
+
+Truth set{ (1,2) (1,4) (1,6) (3,2) (3,4) (3,6) (5,2) (5,4) (5,6) }
+False set {}
+True
+
+
+
+
+
+3.
+
+
+
+a)
+ Everyone laughs, but no one knows why
+P(x) = x is people
+L(x) = x is laugh
+W(x)= x is knows why
+(Ax) [ (P(x) --> L(x)) ^ P(x)'--> W(x) ]
+
+
+
+b)
+
+r(x)= x is rational numbers
+F(x)= x is fractions
+I(x)= x is integers
+
+(Ax) [ r(x) --> F(x)] ^ (Ex) [F(x) --> I(x) ] --> (Ex) [ r(x) --> I(x) ]
+
+
+
+
+4 .
+
+a)
+(Ex) [ A(x) ^ B(x) ] v (Ax) A(x) ^ (Ax)[ A(x) --> B(x) ] --> (Ex) B(x)
+
+(Ex) [ A(x) ^ B(x) ] v (Ax) A(x) ^ (Ax)[ A(x) --> B(x) ] ---> hyp
+[ A(c) ^ B(c) ] v (Ax) A(x) ^ (Ax)[ A(x) --> B(x)] ---> e.i
+[ A(c) ^ B(c) ] v A(c) ^ [ A(c) --> B(c)] ---> u.i
+[ A(c) ^ B(c) ] v A(c) ---> simp
+[ A(c) ^ B(c) ] ^ A(c) ---> weakn
+[ B(c)] ---> simp
+(Ex)B(x) ---> e.g
+
+
+
+b) (Ax) [ (Ey) p(x,y) ]’ --> (Ay) (Ax) p(x,y)’
+
+
+(Ax) [ (Ey) p(x,y) ] ’ ---> hyp
+(Ax) (Ay) [ p(x,y) ]’ ---> negation
+(Ay) (Ax) [ p(x,y) ] ‘ ---> reordering
+
+
+
+
+
+Extra Credit
+CS(x) = x is computer science student
+W(x) = x is works harder
+LS(x)= x is less sleep
+M(x)= x is maria
+S(x)= x is somebody
+Ev(x)= x is everyone
+
+(Ax) [ (CS(x) --> W(x)) --> S(x) ] ^ (Ax) [ (Ev(x) --> (W(x)) --> S(x)) --> LS(x) ] (Ex) [(M(x) --> CS(x)) --> (M(x) --> LS(x)) ]

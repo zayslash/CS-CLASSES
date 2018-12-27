@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/courtssvg/Desktop/AppDev/CS244/CS244/Window/Exception.h
+iostream
+-
+string
+-
+
+/Users/courtssvg/Desktop/AppDev/CS244/CS244/Window/main.cpp
+iostream
+-
+stack.h
+/Users/courtssvg/Desktop/AppDev/CS244/CS244/Window/stack.h
+windows.h
+/Users/courtssvg/Desktop/AppDev/CS244/CS244/Window/windows.h
+windows.cc
+/Users/courtssvg/Desktop/AppDev/CS244/CS244/Window/windows.cc
+
+/Users/courtssvg/Desktop/AppDev/CS244/CS244/Window/stack.h
+iostream
+-
+Exception.h
+/Users/courtssvg/Desktop/AppDev/CS244/CS244/Window/Exception.h
+
+/Users/courtssvg/Desktop/AppDev/CS244/CS244/Window/windows.cc
+windows.h
+/Users/courtssvg/Desktop/AppDev/CS244/CS244/Window/windows.h
+
+/Users/courtssvg/Desktop/AppDev/CS244/CS244/Window/windows.h
+fstream
+-
+string
+-
+vector
+-
+
